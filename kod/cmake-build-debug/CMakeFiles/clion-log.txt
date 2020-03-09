@@ -1,0 +1,4 @@
+/snap/clion/99/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/nixen/Projects/uczelnia/PPK/github_repo/nowa_sekcja/e1f9ddbe-gr32-repo/projekt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nixen/Projects/uczelnia/PPK/github_repo/nowa_sekcja/e1f9ddbe-gr32-repo/projekt

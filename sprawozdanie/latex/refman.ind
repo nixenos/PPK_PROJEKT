@@ -1,0 +1,75 @@
+\begin{theindex}
+
+  \item {D\+FS}
+    \subitem {funkcje.\+cpp}, \hyperpage{10}
+  \item {dane}
+    \subitem {ojciec}, \hyperpage{5}
+    \subitem {wierzcholek}, \hyperpage{7}
+  \item {dodaj\+\_\+dane}
+    \subitem {funkcje.\+cpp}, \hyperpage{10}
+  \item {dodaj\+\_\+do\+\_\+listy}
+    \subitem {funkcje.\+cpp}, \hyperpage{10}
+  \item {dodaj\+\_\+ojca}
+    \subitem {funkcje.\+cpp}, \hyperpage{11}
+  \item {dodaj\+\_\+syna}
+    \subitem {funkcje.\+cpp}, \hyperpage{11}
+
+  \indexspace
+
+  \item {funkcje.\+cpp}, \hyperpage{9}
+    \subitem {D\+FS}, \hyperpage{10}
+    \subitem {dodaj\+\_\+dane}, \hyperpage{10}
+    \subitem {dodaj\+\_\+do\+\_\+listy}, \hyperpage{10}
+    \subitem {dodaj\+\_\+ojca}, \hyperpage{11}
+    \subitem {dodaj\+\_\+syna}, \hyperpage{11}
+    \subitem {usun}, \hyperpage{11, 12}
+    \subitem {wczytaj\+\_\+graf}, \hyperpage{12}
+    \subitem {wyczysc\+\_\+odwiedzone}, \hyperpage{12}
+    \subitem {wypisz\+\_\+graf}, \hyperpage{12}
+    \subitem {wyszukaj\+\_\+ojca}, \hyperpage{13}
+
+  \indexspace
+
+  \item {main.\+cpp}, \hyperpage{13}
+
+  \indexspace
+
+  \item {nastepny}
+    \subitem {ojciec}, \hyperpage{6}
+    \subitem {wierzcholek}, \hyperpage{7}
+
+  \indexspace
+
+  \item {odwiedzony}
+    \subitem {ojciec}, \hyperpage{6}
+  \item {ojciec}, \hyperpage{5}
+    \subitem {dane}, \hyperpage{5}
+    \subitem {nastepny}, \hyperpage{6}
+    \subitem {odwiedzony}, \hyperpage{6}
+    \subitem {synowie}, \hyperpage{6}
+
+  \indexspace
+
+  \item {synowie}
+    \subitem {ojciec}, \hyperpage{6}
+
+  \indexspace
+
+  \item {usun}
+    \subitem {funkcje.\+cpp}, \hyperpage{11, 12}
+
+  \indexspace
+
+  \item {wczytaj\+\_\+graf}
+    \subitem {funkcje.\+cpp}, \hyperpage{12}
+  \item {wierzcholek}, \hyperpage{6}
+    \subitem {dane}, \hyperpage{7}
+    \subitem {nastepny}, \hyperpage{7}
+  \item {wyczysc\+\_\+odwiedzone}
+    \subitem {funkcje.\+cpp}, \hyperpage{12}
+  \item {wypisz\+\_\+graf}
+    \subitem {funkcje.\+cpp}, \hyperpage{12}
+  \item {wyszukaj\+\_\+ojca}
+    \subitem {funkcje.\+cpp}, \hyperpage{13}
+
+\end{theindex}

@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wyszukiwanie cyklów w grafie: Dokumentacja pliku funkcje.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Wyszukiwanie cyklów w grafie
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku funkcje.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;cstdio&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &quot;funkcje.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Wykres zależności załączania dla funkcje.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="funkcje_8cpp__incl.png" border="0" usemap="#funkcje_8cpp" alt=""/></div>
+<map name="funkcje_8cpp" id="funkcje_8cpp">
+<area shape="rect" id="node9" href="funkcje_8h_source.html" title="funkcje.h" alt="" coords="339,80,413,107"/>
+<area shape="rect" id="node10" href="struktury_8h_source.html" title="struktury.h" alt="" coords="355,155,439,181"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a745d4c883df53b14a22e4e71cca25512"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structojciec.html">ojciec</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a745d4c883df53b14a22e4e71cca25512">wyszukaj_ojca</a> (<a class="el" href="structojciec.html">ojciec</a> *grafHead, int ojciec_dane)</td></tr>
+<tr class="separator:a745d4c883df53b14a22e4e71cca25512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4530c49bef00f8c7ecb6cd88ebfee15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ae4530c49bef00f8c7ecb6cd88ebfee15">dodaj_ojca</a> (<a class="el" href="structojciec.html">ojciec</a> *&amp;grafHead, int ojciec_dane)</td></tr>
+<tr class="separator:ae4530c49bef00f8c7ecb6cd88ebfee15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397d5f5b870965200cb1733450ac8070"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a397d5f5b870965200cb1733450ac8070">dodaj_syna</a> (<a class="el" href="structojciec.html">ojciec</a> *&amp;ojciecSyna, int synDane)</td></tr>
+<tr class="separator:a397d5f5b870965200cb1733450ac8070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4262ab3b2f96fed3e0d86997e1f7c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#aed4262ab3b2f96fed3e0d86997e1f7c0">dodaj_dane</a> (int ojciecDane, int synDane, <a class="el" href="structojciec.html">ojciec</a> *&amp;grafHead)</td></tr>
+<tr class="separator:aed4262ab3b2f96fed3e0d86997e1f7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1983566de3ac83afb818a74158ab200d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a1983566de3ac83afb818a74158ab200d">wczytaj_graf</a> (std::string plik, <a class="el" href="structojciec.html">ojciec</a> *&amp;start_grafu)</td></tr>
+<tr class="separator:a1983566de3ac83afb818a74158ab200d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafb80c1ac88f78656e5d654488ca8417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#aafb80c1ac88f78656e5d654488ca8417">wypisz_graf</a> (<a class="el" href="structojciec.html">ojciec</a> *grafHead)</td></tr>
+<tr class="separator:aafb80c1ac88f78656e5d654488ca8417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf963e4d7b897a21f81d49c21880322c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#adf963e4d7b897a21f81d49c21880322c">dodaj_do_listy</a> (<a class="el" href="structojciec.html">ojciec</a> *&amp;listaHead, <a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;cykl, int iterator)</td></tr>
+<tr class="separator:adf963e4d7b897a21f81d49c21880322c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1230a763f975e41e41c0bd0b97d6349f"><td class="memItemLeft" align="right" valign="top"><a id="a1230a763f975e41e41c0bd0b97d6349f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>wypisz_stos_od_tylu</b> (<a class="el" href="structwierzcholek.html">wierzcholek</a> *stos, std::ofstream *plikWy)</td></tr>
+<tr class="separator:a1230a763f975e41e41c0bd0b97d6349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb49a548f1f7d0d65dd0dc5e611fb20"><td class="memItemLeft" align="right" valign="top"><a id="a7fb49a548f1f7d0d65dd0dc5e611fb20"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>dodaj_do_stosu</b> (<a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;stos, int wartosc)</td></tr>
+<tr class="separator:a7fb49a548f1f7d0d65dd0dc5e611fb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208ab2fb28b91f723aba4c2c7952ad30"><td class="memItemLeft" align="right" valign="top"><a id="a208ab2fb28b91f723aba4c2c7952ad30"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>zdejmij_ze_stosu</b> (<a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;stos)</td></tr>
+<tr class="separator:a208ab2fb28b91f723aba4c2c7952ad30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4b7b83059f72ecea2dcffe4d38500a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a8e4b7b83059f72ecea2dcffe4d38500a">DFS</a> (<a class="el" href="structojciec.html">ojciec</a> *&amp;grafHead, int poczatek, <a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;lista, int pierwszy, std::ofstream *plikWy, int &amp;counter)</td></tr>
+<tr class="separator:a8e4b7b83059f72ecea2dcffe4d38500a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0841ba57b8bbd7ad54567a89ace1fefe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a0841ba57b8bbd7ad54567a89ace1fefe">wyczysc_odwiedzone</a> (<a class="el" href="structojciec.html">ojciec</a> *&amp;grafHead)</td></tr>
+<tr class="separator:a0841ba57b8bbd7ad54567a89ace1fefe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad840d380915ccca02b7f859f626d86a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#ad840d380915ccca02b7f859f626d86a0">usun</a> (<a class="el" href="structojciec.html">ojciec</a> *&amp;grafHead)</td></tr>
+<tr class="separator:ad840d380915ccca02b7f859f626d86a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56885cc99ce389819da209443e3d0ef8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="funkcje_8cpp.html#a56885cc99ce389819da209443e3d0ef8">usun</a> (<a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;grafHead)</td></tr>
+<tr class="separator:a56885cc99ce389819da209443e3d0ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="a8e4b7b83059f72ecea2dcffe4d38500a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4b7b83059f72ecea2dcffe4d38500a">&#9670;&nbsp;</a></span>DFS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DFS </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>grafHead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>poczatek</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;&#160;</td>
+          <td class="paramname"><em>lista</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pierwszy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::ofstream *&#160;</td>
+          <td class="paramname"><em>plikWy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>counter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja będąca implementacją algorytmu DFS na listach podwieszanych </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>graf, którym przechodzimy </td></tr>
+    <tr><td class="paramname">poczatek</td><td>początkowy wierzchołek do przechodzenia grafu </td></tr>
+    <tr><td class="paramname">lista</td><td>pomocnicza lista do trzymania stosu wierzchołków </td></tr>
+    <tr><td class="paramname">pierwszy</td><td>początkowy wierzchołek, do którego ścieżki szukamy </td></tr>
+    <tr><td class="paramname">plikWy</td><td>plik wyjściowy </td></tr>
+    <tr><td class="paramname">counter</td><td>licznik cykli </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aed4262ab3b2f96fed3e0d86997e1f7c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4262ab3b2f96fed3e0d86997e1f7c0">&#9670;&nbsp;</a></span>dodaj_dane()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dodaj_dane </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ojciecDane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>synDane</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>grafHead</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja dodająca syna do listy ojca </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ojciecDane</td><td>wartość ojca </td></tr>
+    <tr><td class="paramname">synDane</td><td>wartość syna </td></tr>
+    <tr><td class="paramname">grafHead</td><td>adres grafu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adf963e4d7b897a21f81d49c21880322c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf963e4d7b897a21f81d49c21880322c">&#9670;&nbsp;</a></span>dodaj_do_listy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dodaj_do_listy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>listaHead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;&#160;</td>
+          <td class="paramname"><em>cykl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>iterator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja dodająca listę z cyklem do listy głównej, zawierającej wszystkie cykle </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">listHead</td><td>lista, do której dodajemy cykle </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae4530c49bef00f8c7ecb6cd88ebfee15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4530c49bef00f8c7ecb6cd88ebfee15">&#9670;&nbsp;</a></span>dodaj_ojca()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dodaj_ojca </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>grafHead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ojciecDane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja dodająca ojca do grafu </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>graf, w którym dodajemy ojca </td></tr>
+    <tr><td class="paramname">ojciecDane</td><td>wartość ojca, którą dodajemy do grafu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a397d5f5b870965200cb1733450ac8070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a397d5f5b870965200cb1733450ac8070">&#9670;&nbsp;</a></span>dodaj_syna()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dodaj_syna </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>ojciecSyna</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>synDane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja dodająca syna do list adjacencji ojca </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ojciecSyna</td><td>adres ojca, do listy którego dodajemy syna </td></tr>
+    <tr><td class="paramname">synDane</td><td>wartość syna, którego dodajemy do list ojca </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad840d380915ccca02b7f859f626d86a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad840d380915ccca02b7f859f626d86a0">&#9670;&nbsp;</a></span>usun() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>grafHead</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja usuwająca graf </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>graf do usunięcia </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a56885cc99ce389819da209443e3d0ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56885cc99ce389819da209443e3d0ef8">&#9670;&nbsp;</a></span>usun() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structwierzcholek.html">wierzcholek</a> *&amp;&#160;</td>
+          <td class="paramname"><em>grafHead</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja usuwająca listę wierzchołków </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>lista do usunięcia </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1983566de3ac83afb818a74158ab200d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1983566de3ac83afb818a74158ab200d">&#9670;&nbsp;</a></span>wczytaj_graf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wczytaj_graf </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>plik</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>start_grafu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja wczytująca graf z podanego pliku do pamięci programu. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plik</td><td>nazwa pliku, z którego należy wczytać graf </td></tr>
+    <tr><td class="paramname">graf</td><td>wskaźnik na listę, w której trzymany będzie graf </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0841ba57b8bbd7ad54567a89ace1fefe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0841ba57b8bbd7ad54567a89ace1fefe">&#9670;&nbsp;</a></span>wyczysc_odwiedzone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wyczysc_odwiedzone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&amp;&#160;</td>
+          <td class="paramname"><em>grafHead</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja zerująca znacznik <code>odwiedzony</code> w grafie </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>graf </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aafb80c1ac88f78656e5d654488ca8417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafb80c1ac88f78656e5d654488ca8417">&#9670;&nbsp;</a></span>wypisz_graf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void wypisz_graf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&#160;</td>
+          <td class="paramname"><em>grafHead</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja wypisująca tablicę adjacencji (debugging) </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>graf do wypisania </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a745d4c883df53b14a22e4e71cca25512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745d4c883df53b14a22e4e71cca25512">&#9670;&nbsp;</a></span>wyszukaj_ojca()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structojciec.html">ojciec</a>* wyszukaj_ojca </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structojciec.html">ojciec</a> *&#160;</td>
+          <td class="paramname"><em>grafHead</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ojciecDane</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja wyszukująca adres ojca listy do której należy dodać kolejny wierzchołek. </p><dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grafHead</td><td>graf w którym szukamy ojca </td></tr>
+    <tr><td class="paramname">ojciecDane</td><td>wartość ojca, którego szukamy </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>adres ojca, którego szukano </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

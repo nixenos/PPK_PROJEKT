@@ -1,0 +1,3 @@
+/home/nixen/Projects/uczelnia/PPK/github_repo/nowa_sekcja/e1f9ddbe-gr32-repo/projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nixen/Projects/uczelnia/PPK/github_repo/nowa_sekcja/e1f9ddbe-gr32-repo/projekt/cmake-build-debug/CMakeFiles/projekt.dir
+/home/nixen/Projects/uczelnia/PPK/github_repo/nowa_sekcja/e1f9ddbe-gr32-repo/projekt/cmake-build-debug/CMakeFiles/edit_cache.dir

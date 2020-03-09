@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wyszukiwanie cyklów w grafie: Dokumentacja struktury ojciec</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Wyszukiwanie cyklów w grafie
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Atrybuty publiczne</a> &#124;
+<a href="structojciec-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja struktury ojciec</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="struktury_8h_source.html">struktury.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram współpracy dla ojciec:</div>
+<div class="dyncontent">
+<div class="center"><img src="structojciec__coll__graph.png" border="0" usemap="#ojciec_coll__map" alt="Collaboration graph"/></div>
+<map name="ojciec_coll__map" id="ojciec_coll__map">
+<area shape="rect" id="node2" href="structwierzcholek.html" title="wierzcholek" alt="" coords="5,5,96,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atrybuty publiczne</h2></td></tr>
+<tr class="memitem:a00cd793091881a3fe5244e47248c674e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structojciec.html#a00cd793091881a3fe5244e47248c674e">dane</a></td></tr>
+<tr class="separator:a00cd793091881a3fe5244e47248c674e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6946ed8062440756408c1608c9614da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structojciec.html#ab6946ed8062440756408c1608c9614da">odwiedzony</a></td></tr>
+<tr class="separator:ab6946ed8062440756408c1608c9614da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c0e6fc33374aea30d4b54a0a636d04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structwierzcholek.html">wierzcholek</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structojciec.html#a73c0e6fc33374aea30d4b54a0a636d04">synowie</a></td></tr>
+<tr class="separator:a73c0e6fc33374aea30d4b54a0a636d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e11ec3ccb56da59f2145a171e8e436"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structojciec.html">ojciec</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structojciec.html#a80e11ec3ccb56da59f2145a171e8e436">nastepny</a></td></tr>
+<tr class="separator:a80e11ec3ccb56da59f2145a171e8e436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Struktura reprezentująca graf. Jest to lista list wierzchołków (synów) wychodzących z danego ojca </p>
+</div><h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a00cd793091881a3fe5244e47248c674e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00cd793091881a3fe5244e47248c674e">&#9670;&nbsp;</a></span>dane</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ojciec::dane</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>wierzchołek </p>
+
+</div>
+</div>
+<a id="a80e11ec3ccb56da59f2145a171e8e436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80e11ec3ccb56da59f2145a171e8e436">&#9670;&nbsp;</a></span>nastepny</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structojciec.html">ojciec</a>* ojciec::nastepny</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>wskaźnik na następnego ojca </p>
+
+</div>
+</div>
+<a id="ab6946ed8062440756408c1608c9614da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6946ed8062440756408c1608c9614da">&#9670;&nbsp;</a></span>odwiedzony</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ojciec::odwiedzony</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>czy został odwiedzony </p>
+
+</div>
+</div>
+<a id="a73c0e6fc33374aea30d4b54a0a636d04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73c0e6fc33374aea30d4b54a0a636d04">&#9670;&nbsp;</a></span>synowie</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structwierzcholek.html">wierzcholek</a>* ojciec::synowie</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>wskaźnik na listę synów </p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej struktury została wygenerowana z pliku:<ul>
+<li><a class="el" href="struktury_8h_source.html">struktury.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

@@ -1,0 +1,3 @@
+/home/nixen/Projects/PPK/e1f9ddbe-gr32-repo/projekt/kod/CMakeFiles/rebuild_cache.dir
+/home/nixen/Projects/PPK/e1f9ddbe-gr32-repo/projekt/kod/CMakeFiles/projekt.dir
+/home/nixen/Projects/PPK/e1f9ddbe-gr32-repo/projekt/kod/CMakeFiles/edit_cache.dir

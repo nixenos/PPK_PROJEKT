@@ -1,0 +1,61 @@
+\hypertarget{structojciec}{}\section{Dokumentacja struktury ojciec}
+\label{structojciec}\index{ojciec@{ojciec}}
+
+
+{\ttfamily \#include $<$struktury.\+h$>$}
+
+
+
+Diagram współpracy dla ojciec\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=209pt]{structojciec__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{structojciec_a00cd793091881a3fe5244e47248c674e}{dane}
+\item 
+bool \hyperlink{structojciec_ab6946ed8062440756408c1608c9614da}{odwiedzony}
+\item 
+\hyperlink{structwierzcholek}{wierzcholek} $\ast$ \hyperlink{structojciec_a73c0e6fc33374aea30d4b54a0a636d04}{synowie}
+\item 
+\hyperlink{structojciec}{ojciec} $\ast$ \hyperlink{structojciec_a80e11ec3ccb56da59f2145a171e8e436}{nastepny}
+\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+Struktura reprezentująca graf. Jest to lista list wierzchołków (synów) wychodzących z danego ojca 
+
+\subsection{Dokumentacja atrybutów składowych}
+\mbox{\Hypertarget{structojciec_a00cd793091881a3fe5244e47248c674e}\label{structojciec_a00cd793091881a3fe5244e47248c674e}} 
+\index{ojciec@{ojciec}!dane@{dane}}
+\index{dane@{dane}!ojciec@{ojciec}}
+\subsubsection{\texorpdfstring{dane}{dane}}
+{\footnotesize\ttfamily int ojciec\+::dane}
+
+wierzchołek \mbox{\Hypertarget{structojciec_a80e11ec3ccb56da59f2145a171e8e436}\label{structojciec_a80e11ec3ccb56da59f2145a171e8e436}} 
+\index{ojciec@{ojciec}!nastepny@{nastepny}}
+\index{nastepny@{nastepny}!ojciec@{ojciec}}
+\subsubsection{\texorpdfstring{nastepny}{nastepny}}
+{\footnotesize\ttfamily \hyperlink{structojciec}{ojciec}$\ast$ ojciec\+::nastepny}
+
+wskaźnik na następnego ojca \mbox{\Hypertarget{structojciec_ab6946ed8062440756408c1608c9614da}\label{structojciec_ab6946ed8062440756408c1608c9614da}} 
+\index{ojciec@{ojciec}!odwiedzony@{odwiedzony}}
+\index{odwiedzony@{odwiedzony}!ojciec@{ojciec}}
+\subsubsection{\texorpdfstring{odwiedzony}{odwiedzony}}
+{\footnotesize\ttfamily bool ojciec\+::odwiedzony}
+
+czy został odwiedzony \mbox{\Hypertarget{structojciec_a73c0e6fc33374aea30d4b54a0a636d04}\label{structojciec_a73c0e6fc33374aea30d4b54a0a636d04}} 
+\index{ojciec@{ojciec}!synowie@{synowie}}
+\index{synowie@{synowie}!ojciec@{ojciec}}
+\subsubsection{\texorpdfstring{synowie}{synowie}}
+{\footnotesize\ttfamily \hyperlink{structwierzcholek}{wierzcholek}$\ast$ ojciec\+::synowie}
+
+wskaźnik na listę synów 
+
+Dokumentacja dla tej struktury została wygenerowana z pliku\+:\begin{DoxyCompactItemize}
+\item 
+struktury.\+h\end{DoxyCompactItemize}

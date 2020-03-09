@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Wyszukiwanie cyklów w grafie: Plik źródłowy funkcje.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Wyszukiwanie cyklów w grafie
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">funkcje.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Wojciech Janota, 2019r.</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span><span class="preprocessor">#ifndef PROJEKT_FUNKCJE_H</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define PROJEKT_FUNKCJE_H</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;cstdio&gt;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;struktury.h&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#a1983566de3ac83afb818a74158ab200d">wczytaj_graf</a>(std::string plik, <a class="code" href="structojciec.html">ojciec</a> *&amp; start_grafu);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<a class="code" href="structojciec.html">ojciec</a> * <a class="code" href="funkcje_8cpp.html#a745d4c883df53b14a22e4e71cca25512">wyszukaj_ojca</a>(<a class="code" href="structojciec.html">ojciec</a> * grafHead, <span class="keywordtype">int</span> ojciecDane);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#ae4530c49bef00f8c7ecb6cd88ebfee15">dodaj_ojca</a>(<a class="code" href="structojciec.html">ojciec</a> *&amp; grafHead, <span class="keywordtype">int</span> ojciecDane);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#a397d5f5b870965200cb1733450ac8070">dodaj_syna</a>(<a class="code" href="structojciec.html">ojciec</a> *&amp; ojciecSyna, <span class="keywordtype">int</span> synDane);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#aed4262ab3b2f96fed3e0d86997e1f7c0">dodaj_dane</a>(<span class="keywordtype">int</span> ojciecDane, <span class="keywordtype">int</span> synDane, <a class="code" href="structojciec.html">ojciec</a> *&amp; grafHead);</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#aafb80c1ac88f78656e5d654488ca8417">wypisz_graf</a>(<a class="code" href="structojciec.html">ojciec</a> * grafHead);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#a8e4b7b83059f72ecea2dcffe4d38500a">DFS</a>(<a class="code" href="structojciec.html">ojciec</a> *&amp; grafHead, <span class="keywordtype">int</span> poczatek, <a class="code" href="structwierzcholek.html">wierzcholek</a> *&amp; lista, <span class="keywordtype">int</span> pierwszy, std::ofstream *plikWy, <span class="keywordtype">int</span> &amp;counter);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#adf963e4d7b897a21f81d49c21880322c">dodaj_do_listy</a>(<a class="code" href="structojciec.html">ojciec</a> *&amp; listaHead, <a class="code" href="structwierzcholek.html">wierzcholek</a> *&amp; cykl, <span class="keywordtype">int</span> iterator);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#a0841ba57b8bbd7ad54567a89ace1fefe">wyczysc_odwiedzone</a>(<a class="code" href="structojciec.html">ojciec</a> *&amp; grafHead);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#ad840d380915ccca02b7f859f626d86a0">usun</a>(<a class="code" href="structojciec.html">ojciec</a> *&amp; grafHead);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="keywordtype">void</span> <a class="code" href="funkcje_8cpp.html#ad840d380915ccca02b7f859f626d86a0">usun</a>(<a class="code" href="structwierzcholek.html">wierzcholek</a> *&amp; grafHead);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif //PROJEKT_FUNKCJE_H</span></div><div class="ttc" id="funkcje_8cpp_html_a745d4c883df53b14a22e4e71cca25512"><div class="ttname"><a href="funkcje_8cpp.html#a745d4c883df53b14a22e4e71cca25512">wyszukaj_ojca</a></div><div class="ttdeci">ojciec * wyszukaj_ojca(ojciec *grafHead, int ojciec_dane)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:17</div></div>
+<div class="ttc" id="funkcje_8cpp_html_ad840d380915ccca02b7f859f626d86a0"><div class="ttname"><a href="funkcje_8cpp.html#ad840d380915ccca02b7f859f626d86a0">usun</a></div><div class="ttdeci">void usun(ojciec *&amp;grafHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:225</div></div>
+<div class="ttc" id="funkcje_8cpp_html_aafb80c1ac88f78656e5d654488ca8417"><div class="ttname"><a href="funkcje_8cpp.html#aafb80c1ac88f78656e5d654488ca8417">wypisz_graf</a></div><div class="ttdeci">void wypisz_graf(ojciec *grafHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:122</div></div>
+<div class="ttc" id="funkcje_8cpp_html_aed4262ab3b2f96fed3e0d86997e1f7c0"><div class="ttname"><a href="funkcje_8cpp.html#aed4262ab3b2f96fed3e0d86997e1f7c0">dodaj_dane</a></div><div class="ttdeci">void dodaj_dane(int ojciecDane, int synDane, ojciec *&amp;grafHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:71</div></div>
+<div class="ttc" id="funkcje_8cpp_html_ae4530c49bef00f8c7ecb6cd88ebfee15"><div class="ttname"><a href="funkcje_8cpp.html#ae4530c49bef00f8c7ecb6cd88ebfee15">dodaj_ojca</a></div><div class="ttdeci">void dodaj_ojca(ojciec *&amp;grafHead, int ojciec_dane)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:28</div></div>
+<div class="ttc" id="structojciec_html"><div class="ttname"><a href="structojciec.html">ojciec</a></div><div class="ttdef"><b>Definition:</b> struktury.h:25</div></div>
+<div class="ttc" id="funkcje_8cpp_html_a397d5f5b870965200cb1733450ac8070"><div class="ttname"><a href="funkcje_8cpp.html#a397d5f5b870965200cb1733450ac8070">dodaj_syna</a></div><div class="ttdeci">void dodaj_syna(ojciec *&amp;ojciecSyna, int synDane)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:53</div></div>
+<div class="ttc" id="funkcje_8cpp_html_a1983566de3ac83afb818a74158ab200d"><div class="ttname"><a href="funkcje_8cpp.html#a1983566de3ac83afb818a74158ab200d">wczytaj_graf</a></div><div class="ttdeci">void wczytaj_graf(std::string plik, ojciec *&amp;start_grafu)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:85</div></div>
+<div class="ttc" id="funkcje_8cpp_html_adf963e4d7b897a21f81d49c21880322c"><div class="ttname"><a href="funkcje_8cpp.html#adf963e4d7b897a21f81d49c21880322c">dodaj_do_listy</a></div><div class="ttdeci">void dodaj_do_listy(ojciec *&amp;listaHead, wierzcholek *&amp;cykl, int iterator)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:135</div></div>
+<div class="ttc" id="structwierzcholek_html"><div class="ttname"><a href="structwierzcholek.html">wierzcholek</a></div><div class="ttdef"><b>Definition:</b> struktury.h:15</div></div>
+<div class="ttc" id="funkcje_8cpp_html_a0841ba57b8bbd7ad54567a89ace1fefe"><div class="ttname"><a href="funkcje_8cpp.html#a0841ba57b8bbd7ad54567a89ace1fefe">wyczysc_odwiedzone</a></div><div class="ttdeci">void wyczysc_odwiedzone(ojciec *&amp;grafHead)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:217</div></div>
+<div class="ttc" id="funkcje_8cpp_html_a8e4b7b83059f72ecea2dcffe4d38500a"><div class="ttname"><a href="funkcje_8cpp.html#a8e4b7b83059f72ecea2dcffe4d38500a">DFS</a></div><div class="ttdeci">void DFS(ojciec *&amp;grafHead, int poczatek, wierzcholek *&amp;lista, int pierwszy, std::ofstream *plikWy, int &amp;counter)</div><div class="ttdef"><b>Definition:</b> funkcje.cpp:190</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
